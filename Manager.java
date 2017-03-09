@@ -7,7 +7,7 @@ public class Manager extends Employee {
 	
 	@Override
 	public float getSalary() {
-		return this.salary + this.getBonus();
+		return super.getSalary() + this.getBonus();
 	}
 
 	public float getBonus() {

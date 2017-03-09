@@ -1,7 +1,7 @@
 public class Employee{
-	protected String name;
-	protected String address;
-	protected float salary;
+	private String name;
+	private String address;
+	private float salary;
 	
 	public Employee (String name, String address, float salary) {
 		this.name = name;
